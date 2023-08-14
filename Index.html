@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifrado Cesar</title>
+    <link rel="stylesheet" href="./styleinterfaz.css">
+</head>
+
+<body>
+    <div class="container">
+        <h3>Mensaje original</h3>
+        <input id="mensaje" type="text">
+        <br><button onclick="cifrarMensaje()">Cifrar</button>
+        <h3>Mensaje cifrado</h3>
+        <input disabled type="text" id="cifrado">
+</div>
+    <div class="botoncifrador">           
+    <input id="cifrador" type="number"> 
+</div>
+<div class="descifrador">
+    <h3>Descifrar</h3>
+    <input id="mensaje2" type="text">
+    <br><button onclick="descifrarMensaje()">Descifrar</button>
+    <h3>Mensaje descifrado</h3>
+    <input disabled type="text" id="cifrado2">
+</div>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+.container{
+    margin: auto;
+    align-items:center;
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    
+}
+*{
+    color: rgb(3, 98, 207);
+    font-family: Arial
+}
+button{
+
+    width: 100px;
+    height: 50px;
+}
+button a li{
+    color: black ;
+}
+input{
+    width:500px;
+    height: 50px;
+    border-radius: 3px;
+}
+body{
+    background-image: url("https://www.elite-corner.com/wp-content/uploads/2022/06/Squiggly-Pattern.gif");
+        background-size: cover;
+}
+.descifrador{
+align-items:center;
+position:relative;
+display:flex;
+flex-direction:column;
+}
+.botoncifrador{
+    align-items: center;
+    position:relative;
+    display:flex;
+    flex-direction:column;
+}
